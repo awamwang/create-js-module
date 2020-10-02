@@ -1,0 +1,33 @@
+{
+  "msg": {
+    "hasLocalSetting": "Use local setting:",
+    "noLocalSetting": "There is no setting in curr dir, use global:"
+  },
+  "qs": {
+    "projectName": "What is your project name?",
+    "templateType": "What kind of project are you creating?",
+    "decription": "How would you describe your project?",
+    "version": "What version do you want to start with?",
+    "keywords": "Provide a comma-separated list of keywords:",
+    "license": "Please select a license",
+    "authorName": "What is your name?",
+    "authorEmail": "What is your email?",
+    "website": "What is your website?",
+    "private": "Is this project private?",
+    "projectURL": "What is your project home page?",
+    "testPackages": "Which test packages do you want to include?",
+    "creatRepo": "Would you like to create a GitHub repository?",
+    "useYarn": "Would you like to use Yarn?",
+    "settingFile": "What is the path for the create-nodejs-settings.json file?",
+    "repo": {
+      "url": "What git remote will you be using?",
+      "issue": "What is your issue tracker url?"
+    },
+    "github": {
+      "user": "What is your Github user?",
+      "token": "What is your GitHub token for %s?",
+      "updateToken": "Do you want to update the settings file with this token?"
+    },
+    "licenses": "qs.licenses"
+  }
+}

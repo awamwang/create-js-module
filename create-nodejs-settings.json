@@ -1,0 +1,53 @@
+{
+  "lintPkgs": [
+    "eslint",
+    "eslint-plugin-node",
+    "eslint-config-airbnb",
+    "eslint-plugin-import",
+    "eslint-plugin-jsx-a11y",
+    "eslint-plugin-react"
+  ],
+  "testingPkgs": [
+    "jest",
+    "mocha",
+    "chai",
+    "sinon",
+    "nock"
+  ],
+  "licenses": [
+    "GNU AGPLv3",
+    "GNU GPLv3",
+    "GNU LGPLv3",
+    "Mozilla Public License 2.0",
+    "Apache License 2.0",
+    "MIT License",
+    "ISC License"
+  ],
+  "templates": [
+    "nodejs-project"
+  ],
+  "settingsPath": "/Users/wangmeng/Code/00my-project/create-node-moudle/create-nodejs-settings.json",
+  "templatesPath": "/Users/wangmeng/Code/00my-project/create-node-moudle/templates",
+  "licensesPath": "/Users/wangmeng/Code/00my-project/create-node-moudle/templates/licenses",
+  "defaults": {
+    "license": "GNU GPLv3",
+    "version": "0.0.1",
+    "template": "nodejs-project"
+  },
+  "githubAuth": {
+    "user": "awamwang",
+    "token": "ae6f16f110510bd148696dd914d311ccfd37d414"
+  },
+  "useYarn": true,
+  "website": "www.awam.wang",
+  "template": "nodejs-project",
+  "description": "sf",
+  "version": "0.1.1",
+  "license": "MIT License",
+  "commitMessage": "feat: init project",
+  "i18n": {
+    "version": "0.13.2",
+    "locale": "en"
+  },
+  "locale": "en"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "create-js-module",
+  "version": "1.0.2",
+  "description": "An npm initializer to scaffold a js npm project",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "keywords": [
+    "npm",
+    "npm-init",
+    "npm-initializer",
+    "nodejs",
+    "prompt",
+    "command-line",
+    "cli",
+    "javascript-library"
+  ],
+  "author": "Awam M Wang <wm.keepgoing@gamil.com> (https://awam.wang)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "postinstall": "node --no-warnings scripts/install.js",
+    "setup": "node --no-warnings scripts/setup.js",
+    "cleanup": "node --no-warnings scripts/cleanup.js",
+    "start": "node --no-warnings src/index.js",
+    "test": "mocha",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+  },
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^13.1.0"
+  },
+  "dependencies": {
+    "i18n": "^0.13.2",
+    "inquirer": "^6.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awamwang/create-js-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awamwang/create-js-module/issues"
+  },
+  "homepage": "https://github.com/awamwang/create-js-module#readme"
+}
